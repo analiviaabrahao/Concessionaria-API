@@ -2,6 +2,10 @@
 
 API desenvolvida em **Python + Flask + SQLAlchemy** para gerenciar clientes, veículos, negociações e contas bancárias de uma concessionária.
 
+--
+
+Este Projeto se trata de uma iniciativa acadêmica feita exatamente para o meu desenvolvimento de conhecimento e desenvoltura com o uso das tecnologias citadas abaixo. Há muito a melhorar, porém acredito que com esse projeto foi possível aprender soluções e usos interessantes para aplicações futuras.
+
 ## 📌 Tecnologias Utilizadas
 - Python 3.12
 - Flask
