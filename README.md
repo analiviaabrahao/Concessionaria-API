@@ -18,6 +18,78 @@ Este Projeto se trata de uma iniciativa acadêmica feita exatamente para o meu d
 
 ---
 
+## 🗄️ Modelagem do Banco de Dados
+
+- **Cliente**
+  - `id` (PK)
+  - `nome`
+  - `cpf`
+  - `cnh`
+  - `email`
+  - `telefone`
+  - Relacionamento: 1:N com `Negociacao` e `ContaBancaria`
+
+- **Veiculo**
+  - `id` (PK)
+  - `tipo`
+  - `placa`
+  - `marca`
+  - `modelo`
+  - `pendencia`
+  - `renavam`
+  - `km`
+  - Relacionamento: 1:N com `Negociacao`
+
+- **Negociacao**
+  - `id` (PK)
+  - `id_cliente` (FK → Cliente)
+  - `id_veiculo` (FK → Veiculo)
+  - `valor_compra`
+  - `valor_venda`
+  - `valor_fipe` 
+  - `status`
+  - `data_contrato`
+  
+- **ContaBancaria**
+  - `id` (PK)
+  - `id_cliente` (FK → Cliente)
+  - `banco`
+  - `agencia`
+  - `status`
+
+## 📌 Endpoints Principais
+👤 Clientes
+
+POST /api/clientes → cria cliente
+
+GET /api/clientes → lista clientes
+
+GET /api/clientes/<id> → busca cliente por id
+
+DELETE /api/clientes/<id> → remove cliente por id
+
+🚗 Veículos
+
+POST /api/veiculos → cria veículo
+
+GET /api/veiculos → lista veículos
+
+DELETE /api/veiculos/<id> → remove veiculo por id
+
+📑 Negociações
+
+POST /api/negociacoes → cria negociação
+
+GET /api/negociacoes → lista negociações
+
+🏦 Conta Bancária
+
+POST /api/contas → cria conta bancária
+
+GET /api/contas → lista contas
+
+
+
 ## ⚙️ Como Rodar o Projeto
 
 ### 1. Clone o repositório
