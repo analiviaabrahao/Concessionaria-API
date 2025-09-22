@@ -24,4 +24,6 @@ Este Projeto se trata de uma iniciativa acadêmica feita exatamente para o meu d
 ```bash
 git clone https://github.com/analiviaabrahao/api-concessionaria.git
 cd api-concessionaria
+```
 
+![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/README.md/Dashboar.png)
