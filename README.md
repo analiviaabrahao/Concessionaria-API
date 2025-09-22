@@ -15,6 +15,7 @@ Este Projeto se trata de uma iniciativa acadêmica feita exatamente para o meu d
 - Marshmallow (validação de dados)
 - PostgreSQL
 - Psycopg2
+- CustomTkinter
 
 ---
 
