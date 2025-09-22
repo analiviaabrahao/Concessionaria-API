@@ -26,7 +26,9 @@ git clone https://github.com/analiviaabrahao/api-concessionaria.git
 cd api-concessionaria
 ```
 
-![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/Cap3.png)
-![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/README.md/Cap1.png)
-![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/README.md/Cap2.png)
-![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/README.md/Cap3.png)
+
+![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/main/tela-principal.png)
+![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/main/Cap3.png)
+![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/main/Cap1.png)
+![Logo do projeto](https://github.com/analiviaabrahao/Concessionaria-API/blob/main/Cap2.png)
+
